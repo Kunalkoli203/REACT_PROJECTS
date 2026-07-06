@@ -1,2 +1,5 @@
 3 july  = 
 make a resuable component and called it 
+main.jsx is the entry point of the  program of react and in that developer doesnt code 
+root component - app.jsx
+in app.jsx in that in return we can pass single html element 
