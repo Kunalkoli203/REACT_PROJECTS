@@ -70,11 +70,17 @@ const students = [
 ];
 
 //FILTER
-let q1=students.filter((student)=>{
 
-    return (student.marks>=80 && "city"=="Pune")
+
+// 
+
+let q2=students.filter((student)=>{
+
+    return student.marks>80 && student.city=="Pune";
 
 })
-console.log(q1);
+
+console.log(q2)
+
 
 
